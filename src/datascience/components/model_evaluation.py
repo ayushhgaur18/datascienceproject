@@ -11,10 +11,10 @@ from src.datascience.entity.config_entity import ModelEvaluationConfig
 from src.datascience.constants import *
 from src.datascience.utils.common import read_yaml, create_directories,save_json
 
-import os
-os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/ayushgaur18/datascienceproject.mlflow"
-os.environ["MLFLOW_TRACKING_USERNAME"]="ayushgaur18"
-os.environ["MLFLOW_TRACKING_PASSWORD"]="c762602302e5945ad03ab21f6dfeec6cac0edd37"
+#import os
+#os.environ["MLFLOW_TRACKING_URI"]="https://dagshub.com/ayushgaur18/datascienceproject.mlflow"
+#os.environ["MLFLOW_TRACKING_USERNAME"]="ayushgaur18"
+#os.environ["MLFLOW_TRACKING_PASSWORD"]="c762602302e5945ad03ab21f6dfeec6cac0edd37"
 
 class ModelEvaluation:
     def __init__(self, config: ModelEvaluationConfig):
